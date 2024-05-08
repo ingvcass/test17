@@ -18,7 +18,7 @@ namespace UnitTestProject
 
         public const string NULL_STRING = "";
         public const string FILE_PATH_STRING = "@D:\\JDK-intellij-downloader-info.txt";
-        public const string FILE_PATH_STRING2 = "@D:\\JDK-intellij-downloader.txt";
+        public const string FILE_PATH_STRING2 = "@D:\\JDK.txt";
         public const string CONTENT_STRING = "Some text";
         public const string WRONG_SIZE_CONTENT_STRING = "TEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtextTEXTtext";
         public List<File> files = new List<File>();

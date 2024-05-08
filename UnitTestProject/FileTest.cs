@@ -32,7 +32,7 @@ namespace UnitTestProject
         public void GetFilenameTest()
         {
             File newFile = new File(FILE_PATH_STRING, CONTENT_STRING);
-            String name = "JDK-intellij-downloader-info";
+            String name = "JDK-intellij-downloader-info.txt";
             Assert.AreEqual(newFile.GetFilename(), name, NAME_EXCEPTION);
         }
         [TestMethod]
