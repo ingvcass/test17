@@ -20,14 +20,13 @@ namespace UnitTestEx
          */
         public File(String filename, String content)
         {
-            this.filename = filename;
             int a = filename.LastIndexOf('\\');
             this.filename = filename.Substring(a+1);
-            a = this.filename.LastIndexOf('.');
-            this.filename = this.filename.Substring(0, a );
+            //a = this.filename.LastIndexOf('.');
+            //this.filename = this.filename.Substring(0, a );
             this.content = content;
             this.size = content.Length / 2;
-            this.extension = filename.Split('.')[this.filename.Split('.').Length - 1];
+            this.extension = filename.Split('.')[filename.Split('.').Length - 1];
         }
 
         /**
